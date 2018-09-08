@@ -13,3 +13,11 @@ array_perm = []
 end
 
 puts array_perm = permutation(array_die)
+
+puts "------------------------------"
+
+array_perm.each do |num|
+  total = 0
+  total = num[0] + num[1]
+  puts  "Dice Roll: #{num[0]}, #{num[1]} Total: #{total}"
+end
