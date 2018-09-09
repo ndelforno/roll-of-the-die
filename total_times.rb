@@ -25,18 +25,30 @@ total_perm = array_perm.length
 puts "There are #{total_perm} possible permutations"
 
 hash_times = {
-  2 => "",
-  3 => "",
-  4 => "",
-  5 => "",
-  6 => "",
-  7 => "",
-  8 => "",
-  9 => "",
-  10 => "",
-  11 => "",
-  12 => ""
+  2 => 0,
+  3 => 0,
+  4 => 0,
+  5 => 0,
+  6 => 0,
+  7 => 0,
+  8 => 0,
+  9 => 0,
+  10 => 0,
+  11 => 0,
+  12 => 0
 }
 puts hash_times
 
-hash_times.each do |k,v|
+# array_perm.each do |num|
+#   total = 0
+#   total = num[0] + num[1]
+# hash_times.each do |k,v|
+#     times = v
+#     if k = total
+#       times +=1
+#       # hash_times = hash_times[k][times]
+#     end
+#   end
+#
+# end
+# puts hash_times
